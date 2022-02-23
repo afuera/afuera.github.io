@@ -20,7 +20,7 @@ UE-APIs are Android framework APIs that can potentially throw unchecked exceptio
 #### Module II: Pinpoint Arguments
 We have shuffled 100 random UE-APIs, and run Module II on them. The raw data can be found here.
 
-
+<!---
 We use ***~~Context~~*** to mark parameters that are linked to the unchecked exception and confirmed by Afuera.
 
 We use ***Context*** to mark parameters that are linked to the unchecked exception but not confirmed by Afuera.
@@ -77,3 +77,4 @@ We use ***Context*** to mark parameters that are linked to the unchecked excepti
 |48|[ScriptIntrinsicLUT.forEach](https://github.com/afuera/Module-II/blob/main/android.renderscript.ScriptIntrinsicLUT.forEach)|RSIllegalArgumentException|***Allocation***, Allocation| FN  |
 |49|[MediaController.setMediaPlayer](https://github.com/afuera/Module-II/blob/main/android.widget.MediaController.setMediaPlayer)|NullPointerException|MediaController$MediaPlayerControl| TN  |
 |50|[Activity.startActivityIfNeeded](https://github.com/afuera/Module-II/blob/main/android.app.Activity.startActivityIfNeeded)|ActivityNotFoundException|***~~Intent~~***, int, Bundle|TP|
+--->
