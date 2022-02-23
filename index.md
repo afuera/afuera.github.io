@@ -18,7 +18,7 @@ The total analysis time for Module I finishes within 10 minutes. This is substan
 #### Module I: Profiling UE-APIs,
 UE-APIs are Android framework APIs that can potentially throw unchecked exceptions. The complete list of UE-APIs and their unchecked exceptions can be accessed [UE-APIs](https://github.com/afuera/ue-api).
 #### Module II: Pinpoint Arguments
-We have shuffled 50 random UE-APIs, and run Module II on them, the details of these 50 samples are in below table.
+We have shuffled 100 random UE-APIs, and run Module II on them. The raw data can be found here.
 
 
 We use ***~~Context~~*** to mark parameters that are linked to the unchecked exception and confirmed by Afuera.
